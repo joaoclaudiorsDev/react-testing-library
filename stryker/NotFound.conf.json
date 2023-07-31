@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "mutate": [
+    "src/pages/NotFound.tsx"
+  ],
+  "mutator": {
+    "excludedMutations": [
+      "ArithmeticOperator",
+      "ArrayDeclaration",
+      "BlockStatement",
+      "BooleanLiteral",
+      "ConditionalExpression",
+      "EqualityOperator",
+      "LogicalOperator",
+      "ObjectLiteral",
+      "UnaryOperator",
+      "UpdateOperator"
+    ]
+  },
+  "testRunner": "command",
+  "commandRunner": {
+    "command": "CI=true npm test 'src/tests/NotFound.test.tsx'"
+  },
+  "timeoutMS": 20000,
+  "reporters": [
+    "progress",
+    "clear-text",
+    "event-recorder"
+  ],
+  "coverageAnalysis": "off",
+  "warnings": false
+}

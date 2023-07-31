@@ -1,0 +1,1 @@
+{"fileName":"/home/joao/projetos-trybe/sd-032-b-react-test/sd-032-b-project-react-testing-library-ts/src/components/Pokemon.tsx","id":"0","location":{"start":{"column":38,"line":12},"end":{"column":1,"line":37}},"mutatorName":"BlockStatement","replacement":"{}","statusReason":"Ignored because of excluded mutation \"BlockStatement\"","status":"Ignored","static":false}

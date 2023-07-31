@@ -1,0 +1,18 @@
+ignore_files:
+  - stryker/
+  - src/components/
+  - src/services/
+  - src/types/
+  - src/App.css
+  - src/App.tsx
+  - src/data.ts
+  - src/index.css
+  - setupTests.ts
+  - .eslintrc.json
+  - .eslintignore
+  - .stylelintrc.json
+  - .stylelintignore
+  - .gitignore
+  - stryker.conf.json
+  - README.md
+  
